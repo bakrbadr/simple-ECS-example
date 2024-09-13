@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: nginx-helloworld
-        image: alanrenouf/nginx
+        image: nginx
         ports:
         - containerPort: 80
 ---
